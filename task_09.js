@@ -1,8 +1,8 @@
 // THe function outputs all the vowels in a string
 function vowel(word){
-    var wordList = word.toLowerCase().split('');
+    var wordList = word.split('');
     console.log(wordList);
-    var vowelList = ['a', 'e', 'i', 'i', 'o', 'u'];
+    var vowelList = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
     var container = [];
 
     //This code snipets searches for possible vowel letters
@@ -28,4 +28,4 @@ function vowel(word){
 }
 
 //Testing Code
-vowel("hippopotamus");
+vowel("hippOpotamus");

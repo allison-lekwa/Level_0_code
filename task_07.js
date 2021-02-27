@@ -5,7 +5,7 @@ function TempCelsius(fahrenheit){
 }
 
 function TempFahrenheit(celsius){
-    var fahrenheitValue = (5/9)*celsius + 32;
+    var fahrenheitValue = (9/5)*celsius + 32;
     console.log(fahrenheitValue);
 }
 
